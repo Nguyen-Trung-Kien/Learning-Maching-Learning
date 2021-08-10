@@ -1,1 +1,0 @@
-# nghiên cứu về Numpy
