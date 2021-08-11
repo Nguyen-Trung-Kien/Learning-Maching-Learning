@@ -4,6 +4,13 @@ Numpy là một thư viện  toán học nổi tiếng của python , có cực 
 # Vì sao thường gặp numpy trong các mô hình máy học 
 Oke không biết
 
+bạn có thể thấy
+![image](https://user-images.githubusercontent.com/65381453/128995621-a4efccd0-68b7-4461-9299-f2f7215928dd.png)
+
+Thời gian tính toán của hàm sum in python trong cùng 1 phép tính là 1.37ms ? trong khi np.sum là 7.1 us , dữ liệu càng lớn thì tốc độ chên lệch càng nhiều
+
+đó là lý do nta sử dụng numpy chứ ko sài thuần pyhon
+
 # Thao tác với Numpy
 ## Khởi tạo mảng
 ![image](https://user-images.githubusercontent.com/65381453/128968686-d8425eaf-4ba1-478c-bbc7-f97877ec5dc3.png)
@@ -60,3 +67,24 @@ Thỉnh thoảng cần phải tạo các cột toàn 0,1 hay giá trị mong mu�
 3. array[n,i,j] : Truy cập tới phần tử chiều n, hàng i, cột j của mảng 3 chiều tính từ 0
 4. array[a:b] : Truy cập tới các phần tử từ a đến b-1 trong mảng 1 chiều
 5. array[:,:b] : Truy cập tới phần tử từ cột 0 đến cột b-1, của tất cả các hàng trong mảng 2 chiều.
+
+# split 
+cắt 
+
+![image](https://user-images.githubusercontent.com/65381453/128988838-e78cd5e1-c96f-4d60-8f4c-eb41583c7538.png)
+
+Output: 3 mảng
+![image](https://user-images.githubusercontent.com/65381453/128988870-e94b4e1b-e9f0-4517-a33e-b28c62637999.png)
+
+split chia mảng thành những phần mà người dùng xác định
+
+# Phương sai và độ lệch chuẩn
+
+tham khảo, mình sẽ có 1 bài về 2 cái này
+
+1. np.mean : tính trung bình
+2. np.std : tính độ lệch chuẩn  hoặc np.sqrt(np.var()) 
+3. np.var : tính phương sai
+
+https://www.mathsisfun.com/data/standard-deviation.html
+# Sort
