@@ -3,9 +3,9 @@ Nghiên cứu về học máy, Mặc dù đã từng nghiêm cứu qua rồi, nh
 
 # Bước đầu tiên
 ## Xây dựng lại kiến thức toán học
-1. Vector/Scalar
-2. Matrix
-3. Transponse of a matrix
+1. Vector/Scalar => done
+2. Matrix => done
+3. Transponse of a matrix 
 4. Norm Vector
 5. Tensor
 6. 
