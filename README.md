@@ -20,3 +20,4 @@ Nghiên cứu về học máy, Mặc dù đã từng nghiêm cứu qua rồi, nh
 
 Cảm ơn bangoc123
 *https://github.com/bangoc123/learn-machine-learning-in-two-months*
+https://viblo.asia/s/handbook-computer-vision-with-deep-learning-MnKMJDQrZ7P
