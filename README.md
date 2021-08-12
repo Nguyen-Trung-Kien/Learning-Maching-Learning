@@ -5,8 +5,8 @@ Nghiên cứu về học máy, Mặc dù đã từng nghiêm cứu qua rồi, nh
 ## Xây dựng lại kiến thức toán học
 1. Vector/Scalar => done
 2. Matrix => done
-3. Transponse of a matrix 
-4. Norm Vector
+3. Transponse of a matrix => done
+4. Norm Vector => done
 5. Tensor
 6. 
 
