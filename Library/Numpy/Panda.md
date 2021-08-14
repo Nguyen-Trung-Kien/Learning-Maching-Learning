@@ -48,3 +48,28 @@ Các giá trị bao gồm:
 5. max : giá trị max tuỳ theo trường hợp
 
 *có thể sử dụng thêm describe(inclulde = "all") cho tất cả*
+# Loc()
+sử dụng để lọc ??
+
+sử dụng nó để filter các giá trị của cột,vv
+
+![image](https://user-images.githubusercontent.com/65381453/129447245-f1829c31-ff55-49a2-ab35-4038ea42db5d.png)
+
+bạn cũng có thể sử dụng dấu & | để thêm vào điều kiện
+
+![image](https://user-images.githubusercontent.com/65381453/129447463-c231f9d6-89eb-4f50-807d-737b12d7cebe.png)
+
+hoặc có thể thêm những cột xuất hiện
+
+![image](https://user-images.githubusercontent.com/65381453/129447624-ea22a2d1-a44e-4063-a8bc-b2cbdb849312.png)
+# iLoc()
+còn gọi indexlocation lựa chọn những cột, hàng mà bạn muốn
+
+![image](https://user-images.githubusercontent.com/65381453/129447900-7ef85c7c-d4a3-4f22-a83a-e3f5287887b8.png)
+
+đưa ra thông tin
+
+more, more
+
+![image](https://user-images.githubusercontent.com/65381453/129448192-316f77f0-7e92-4dad-bdcb-1cab8c7c9a88.png)
+#
