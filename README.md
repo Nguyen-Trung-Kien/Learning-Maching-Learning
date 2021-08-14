@@ -7,8 +7,10 @@ Nghiên cứu về học máy, Mặc dù đã từng nghiêm cứu qua rồi, nh
 2. Matrix => done
 3. Transponse of a matrix => done
 4. Norm Vector => done
-5. Tensor
-6. 
+5. Tensor => done
+6. 1 số thư viện : numpy, pandas => done
+7. Bài toán hồi quy (Regression)
+8. 
 
 
 
