@@ -87,4 +87,7 @@ tham khảo, mình sẽ có 1 bài về 2 cái này
 3. np.var : tính phương sai
 
 https://www.mathsisfun.com/data/standard-deviation.html
-# Sort
+# Linear
+để thực hiện tích vô hướng 
+#### B (3x2) và A (3x3) => B.dot(A) không được, vì vậy transpoun B.T (2x3) mới có thể nhân được
+*A.dot(B) hoặc A @ B*
