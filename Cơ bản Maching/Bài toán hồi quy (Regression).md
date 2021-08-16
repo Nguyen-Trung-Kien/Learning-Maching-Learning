@@ -110,3 +110,8 @@ theta = np.linalg.inv(X.T.dot(X)).dot(X.T.dot(Y))
 kết quả:
 
 ![image](https://user-images.githubusercontent.com/65381453/129489208-b9d9aab3-9a41-499e-90bf-ac17f34b0097.png)
+
+vậy nó có dạng
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\hat{Y}&space;=&space;X\theta&space;=&space;\begin{bmatrix}&space;X_0\&space;1&space;\end{bmatrix}&space;\begin{bmatrix}&space;\0.377943&space;\\\-3.23667906&space;\end{bmatrix}&space;=&space;0.377943X_0&space;&plus;&space;-3.23667906" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\large&space;\hat{Y}&space;=&space;X\theta&space;=&space;\begin{bmatrix}&space;X_0\&space;1&space;\end{bmatrix}&space;\begin{bmatrix}&space;\0.377943&space;\\\-3.23667906&space;\end{bmatrix}&space;=&space;0.377943X_0&space;&plus;&space;-3.23667906" title="\large \hat{Y} = X\theta = \begin{bmatrix} X_0\ 1 \end{bmatrix} \begin{bmatrix} \0.377943 \\\-3.23667906 \end{bmatrix} = 0.377943X_0 + -3.23667906" /></a>
+
