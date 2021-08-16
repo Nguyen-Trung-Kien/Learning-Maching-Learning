@@ -115,3 +115,24 @@ vậy nó có dạng
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=\inline&space;\large&space;\hat{Y}&space;=&space;X\theta&space;=&space;\begin{bmatrix}&space;X_0\&space;1&space;\end{bmatrix}&space;\begin{bmatrix}&space;\0.377943&space;\\\-3.23667906&space;\end{bmatrix}&space;=&space;0.377943X_0&space;&plus;&space;-3.23667906" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\inline&space;\large&space;\hat{Y}&space;=&space;X\theta&space;=&space;\begin{bmatrix}&space;X_0\&space;1&space;\end{bmatrix}&space;\begin{bmatrix}&space;\0.377943&space;\\\-3.23667906&space;\end{bmatrix}&space;=&space;0.377943X_0&space;&plus;&space;-3.23667906" title="\large \hat{Y} = X\theta = \begin{bmatrix} X_0\ 1 \end{bmatrix} \begin{bmatrix} \0.377943 \\\-3.23667906 \end{bmatrix} = 0.377943X_0 + -3.23667906" /></a>
 
+bây giờ ta có thể phỏng đoán được độ tuổi khi cho 1 cân nặng cụ thể
+
+![image](https://user-images.githubusercontent.com/65381453/129596008-58e33d64-6337-4d02-887f-18fa77ded578.png)
+
+*Nói tóm ta tìm kiếm hệ số của biến độc lập và giá trị độ lệch của hàm mất mát*
+
+Ta check lại bằng thư viện scikit-learn
+
+![image](https://user-images.githubusercontent.com/65381453/129603714-fb3bbece-e421-4e0e-8d77-1c5ea9e51b92.png)
+
+```
+from sklearn import datasets, linear_model
+
+liner = linear_model.LinearRegression(fit_intercept=False)
+liner.fit(X,Y) # thực hiện train dữ liệu trên tập train
+```
+kết quả
+
+![image](https://user-images.githubusercontent.com/65381453/129603796-1a7a138a-bd8b-4a82-a47a-eade46c7aaa0.png)
+
+hoàn toàn giống nhau
