@@ -57,5 +57,8 @@ Bộ phân lớp Naive bayes hay bộ phân lớp Bayes (simple byes classifier)
 Xác xuất Ci xảy ra khi có X *lớn hơn* Xác xuất Cj xảy ra khi có X thì bộ phân lớp Bayes sẽ dự đoán X thuộc vào lớp Ci
 ```
 
-3. Để tìm được xác suất lớn nhất , ta nhận thấy các giá trị P(X) là giống nhau với mọi lớp nên không cần tính.Do đó ta chỉ cần tìm giá trị lớn nhất của P(X|Ci) * P(Ci)
+3. Để tìm được xác suất lớn nhất , ta nhận thấy các giá trị P(X) là giống nhau với mọi lớp nên không cần tính.Do đó ta chỉ cần tìm giá trị lớn nhất của P(X|Ci) * P(Ci) ,P(Ci) được ước lượng bằng |Di|/|D|, trong đó Di là tập các phần tử dữ liệu thuộc lớp Ci. Nếu xác suất tiền nghiệm P(Ci) cũng không xác định được thì ta coi chúng bằng nhau P(C1) = P(C2) = ... = P(Cm), khi đó ta chỉ cần tìm giá trị P(X|Ci) lớn nhất.
+4. Khi số lượng các thuộc tính mô tả dữ liệu là lớn thì chi phí tính toàn P(X|Ci) là rất lớn, dó đó có thể giảm độ phức tạp của thuật toán Naive Bayes giả thiết các thuộc tính độc lập nhau. Khi đó ta có thể tính:
 
+
+P(X|Ci) = P(x1|Ci)...P(xn|Ci)
