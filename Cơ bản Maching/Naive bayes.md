@@ -62,3 +62,8 @@ Xác xuất Ci xảy ra khi có X *lớn hơn* Xác xuất Cj xảy ra khi có X
 
 
 P(X|Ci) = P(x1|Ci)...P(xn|Ci)
+
+
+https://1upnote.me/post/2018/11/ds-ml-naive-bayes/
+
+https://viblo.asia/p/thuat-toan-phan-lop-naive-bayes-924lJWPm5PM
