@@ -47,3 +47,15 @@ P(nữ|hsgioi) = (5/30 x 15/40 )/1
 
 *đơn giản dễ hiểu phải k*
 ##  Phân lớp Naive Bayes
+Bộ phân lớp Naive bayes hay bộ phân lớp Bayes (simple byes classifier) hoạt động như sau:
+1. Gọi D là tập dữ liệu huấn luyện, trong đó mỗi phần tử dữ liệu X được biểu diễn bằng một vector chứa n giá trị thuộc tính A1, A2,...,An = {x1,x2,...,xn}
+2. Giả sử có m lớp C1, C2,..,Cm. Cho một phần tử dữ liệu X, bộ phân lớp sẽ gán nhãn cho X là lớp có xác suất hậu nghiệm lớn nhất. Cụ thể, bộ phân lớp Bayes sẽ dự đoán X thuộc vào lớp Ci nếu và chỉ nếu:
+
+
+*P(Ci | X) > P(Cj | X) (1<= i, j <=m, i != j)*
+```
+Xác xuất Ci xảy ra khi có X *lớn hơn* Xác xuất Cj xảy ra khi có X thì bộ phân lớp Bayes sẽ dự đoán X thuộc vào lớp Ci
+```
+
+3. Để tìm được xác suất lớn nhất , ta nhận thấy các giá trị P(X) là giống nhau với mọi lớp nên không cần tính.Do đó ta chỉ cần tìm giá trị lớn nhất của P(X|Ci) * P(Ci)
+
