@@ -65,7 +65,23 @@ P(X|Ci) = P(x1|Ci)...P(xn|Ci)
 
 Ví dụ tiếp:
 
-Xác suất để 1 người dính covid là 35% và xác suất không dính covid là 65%
+Xác suất để 1 người dính covid là 35% và xác suất không dính covid là 65% 
+
+Xác xuất 1 người dính covid xét nghiệm là dương tính là 0.08 và 1 người không dính covid xét nghiệm dương tính là 0.92, giả sử 1 bệnh nhân xét nghiệm dương tính thì xác suất dính covid là bao nhiêu
+
+C: covid; d: dương tính
+
+P(d|C) = 0.08
+P(d|n-C) = 0.92
+P(C) = 0.35
+P(n-C) = 0.65
+
+P(d|C)x P(C) = 0.028
+
+P(d|n-C)x P(n-C) = 0.598
+
+=>>>> không dính covid
+
 
 https://1upnote.me/post/2018/11/ds-ml-naive-bayes/
 
