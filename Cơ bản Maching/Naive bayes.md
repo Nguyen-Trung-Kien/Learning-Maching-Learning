@@ -65,6 +65,8 @@ P(X|Ci) = P(x1|Ci)...P(xn|Ci)
 
 Ví dụ tiếp:
 
+Xác suất để 1 người dính covid là 35% và xác suất không dính covid là 65%
+
 https://1upnote.me/post/2018/11/ds-ml-naive-bayes/
 
 https://viblo.asia/p/thuat-toan-phan-lop-naive-bayes-924lJWPm5PM
