@@ -25,3 +25,10 @@ Và cột thứ 2
 
 
 # Đầu tiên mình sẽ không có xử lý trước, và chạy thử nó sẽ ntn
+
+![image](https://user-images.githubusercontent.com/65381453/130990030-6b17443d-f708-4e58-8b15-5f4a6d064b46.png)
+
+tách dữ liệu ban đầu thành dữ liệu train và dữ liệu test
+
+Tiếp theo là chuyển dữ liệu text sang vector để có thể sử lý
+
