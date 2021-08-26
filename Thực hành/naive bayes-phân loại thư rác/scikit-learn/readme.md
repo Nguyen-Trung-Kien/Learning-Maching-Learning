@@ -22,3 +22,6 @@ Cột đầu tiên là số lượng từ của mail , có vẻ không sử dụ
 Và cột thứ 2
 
 ![image](https://user-images.githubusercontent.com/65381453/130809492-0554d08b-fef6-4d9e-808c-1239ef1ac633.png)
+
+
+# Đầu tiên mình sẽ không có xử lý trước, và chạy thử nó sẽ ntn
